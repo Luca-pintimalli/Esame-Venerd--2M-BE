@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lucapintimalli/Documents/GitHub/Progetto-19.07/Progetto-19.07/Progetto-19.07.csproj",
+      "projectUniqueName": "/Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07/Progetto-19.07.csproj",
       "projectName": "Progetto-19.07",
-      "projectPath": "/Users/lucapintimalli/Documents/GitHub/Progetto-19.07/Progetto-19.07/Progetto-19.07.csproj",
+      "projectPath": "/Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07/Progetto-19.07.csproj",
       "packagesPath": "/Users/lucapintimalli/.nuget/packages/",
-      "outputPath": "/Users/lucapintimalli/Documents/GitHub/Progetto-19.07/Progetto-19.07/obj/",
+      "outputPath": "/Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lucapintimalli/.nuget/NuGet/NuGet.Config"

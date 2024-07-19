@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V5Yyxw3cGxptduXKu4vYF4W2SrXX5i44e/b/SGnG/zuBuBSl6QaY7xg3ryaPkZZBYvP1bvFIB6zRSnEH7490cg==",
+  "dgSpecHash": "nvCSPbSviXudLptc555cAyJ8nGgG6jVvlxDgg3V8ueyRC67yGaACCK6ihWd9dXfGcXgU4YVveuDAwM/aq1D1OA==",
   "success": true,
-  "projectFilePath": "/Users/lucapintimalli/Documents/GitHub/Progetto-19.07/Progetto-19.07/Progetto-19.07.csproj",
+  "projectFilePath": "/Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07/Progetto-19.07.csproj",
   "expectedPackageFiles": [
     "/Users/lucapintimalli/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/lucapintimalli/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
