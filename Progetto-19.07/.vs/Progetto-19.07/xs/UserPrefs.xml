@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{3A0C8F95-DB45-4078-9934-EAD5C7DD1C52}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Progetto-19.07/Controllers/ReportController.cs">
+    <Files>
+      <File FileName="Progetto-19.07/Models/Anagrafica.cs" Line="16" Column="1" />
+      <File FileName="Progetto-19.07/Models/TipoViolazione.cs" Line="7" Column="48" />
+      <File FileName="Progetto-19.07/Models/Verbale.cs" Line="20" Column="1" />
+      <File FileName="Progetto-19.07/Controllers/AnagraficaController.cs" Line="12" Column="2" />
+      <File FileName="Progetto-19.07/Controllers/TipoViolazioniController.cs" Line="6" Column="52" />
+      <File FileName="Progetto-19.07/Controllers/VerbaleController.cs" Line="14" Column="1" />
+      <File FileName="Progetto-19.07/Controllers/ReportController.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Progetto-19.07">
+            <Node name="Progetto-19.07" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Progetto-19.07 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
