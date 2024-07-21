@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07/Views/Anagrafica/Anagrafica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5hZ3JhZmljYS9BbmFncmFmaWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07/Views/Anagrafica/NewAnagrafica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5hZ3JhZmljYS9OZXdBbmFncmFmaWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/lucapintimalli/Documents/GitHub/BW-Backend-U1/BW-Backend-U1/BW_U_1/BW_U_1/Esame-Venerd--2M-BE/Progetto-19.07/Progetto-19.07/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

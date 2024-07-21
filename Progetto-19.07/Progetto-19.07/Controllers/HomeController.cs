@@ -11,8 +11,6 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger, IConfiguration conf)
     {
         _logger = logger;
-        var connection = new System.Data.SqlClient.SqlConnection(conf.GetConnectionString("AppDb"));
-        connection.Open();
     }
 
     public IActionResult Index()

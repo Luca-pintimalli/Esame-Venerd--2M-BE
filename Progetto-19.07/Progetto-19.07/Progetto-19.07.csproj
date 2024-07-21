@@ -14,8 +14,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Services\" />
+    <None Remove="Views\Anagrafica\" />
+    <None Remove="Services\ANAGRAFICA\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
+    <Folder Include="Views\Anagrafica\" />
+    <Folder Include="Services\ANAGRAFICA\" />
   </ItemGroup>
 </Project>
