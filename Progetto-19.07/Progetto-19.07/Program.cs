@@ -1,4 +1,5 @@
-﻿using Progetto_19._07.Services;
+﻿using Progetto_19._07.Models;
+using Progetto_19._07.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,7 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IAnagraficaService, AnagraficaService>();
- 
+builder.Services.AddScoped<ITipoViolazioneService, TipoViolazioneService>();
+builder.Services.AddScoped <IVerbaleService, VerbaleService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

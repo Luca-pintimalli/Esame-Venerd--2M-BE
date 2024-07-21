@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Verbale>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Verbali";
+}
+
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+</div>
+
+
+
+@if (Model.Any())
+{
+    <table class="table table-borderless">
+        <thead>
+            <tr>
+                <th>Data Violazione</th>
+                <th>Indirizzo violazione</th>
+                <th> Nominativo agente </th>
+                <th>Data verbale</th>
+                <th>Importo</th>
+                <th>Decurtamento Punti</th>
+                <th>Anagrafica</th>
+                <th>Violazione </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                <tr>
+                    <td>@a.DataViolazione</td>
+                    <td>@a.IndirizzoViolazione</td>
+                    <td>@a.NominativoAgente</td>
+                    <td>@a.DataTrascrizioneVerbale</td>
+                    <td>@a.Importo</td>
+                    <td>@a.DecurtamentoPunti</td>
+                    <td>@a.IdAnagrafica</td>
+                    <td>@a.IdVerbale</td>
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="row">
+        <div class="col alert alert-warning">Nessun Verbale</div>
+
+    </div>
+
+}
+
+
+
+<div class="row">
+
+    <div class="col">
+        <a asp-action="NewVerbale" class="btn btn-primary">Nuovo Verbale</a>
+
+    </div>
+
+</div>

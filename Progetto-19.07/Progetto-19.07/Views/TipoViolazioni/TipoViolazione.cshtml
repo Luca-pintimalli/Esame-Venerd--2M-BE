@@ -1,0 +1,66 @@
+﻿@model IEnumerable<TipoViolazione>
+
+@{
+    ViewData["Title"] = "Tipo violazione";
+    Layout = "_Layout";
+}
+
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+</div>
+
+
+
+@if (Model.Any())
+{
+    <table class="table table-borderless">
+        <thead>
+            <tr>
+                <th>Tipo Violazione</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                <tr>
+                    <td>
+                        <ul>
+
+                            <li>
+                                @a.descrizione
+                            </li>
+
+                        </ul>
+
+
+
+                    </td>
+                    
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="row">
+        <div class="col alert alert-warning">Nessuna Violazione</div>
+
+    </div>
+
+}
+
+
+
+<div class="row">
+
+    <div class="col">
+        <a asp-action="NewViolazione" class="btn btn-primary">Nuova Violazione</a>
+
+    </div>
+
+</div>

@@ -16,10 +16,16 @@
     <None Remove="Services\" />
     <None Remove="Views\Anagrafica\" />
     <None Remove="Services\ANAGRAFICA\" />
+    <None Remove="Views\TipoViolazioni\" />
+    <None Remove="Services\Violazioni\" />
+    <None Remove="Views\Verbale\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Views\Anagrafica\" />
     <Folder Include="Services\ANAGRAFICA\" />
+    <Folder Include="Views\TipoViolazioni\" />
+    <Folder Include="Services\Violazioni\" />
+    <Folder Include="Views\Verbale\" />
   </ItemGroup>
 </Project>
