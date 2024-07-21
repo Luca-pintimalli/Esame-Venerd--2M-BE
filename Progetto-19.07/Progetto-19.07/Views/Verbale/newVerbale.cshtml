@@ -1,48 +1,56 @@
-﻿@model Progetto_19._07.Models.Verbale
+﻿@model NewVerbaleViewModel
 
-<form asp-action="NewVerbale" method="post" class="form-horizontal">
+<form asp-action="NewVerbale" method="post">
     <div class="form-group">
-        <label asp-for="DataViolazione" class="control-label"></label>
+        <label asp-for="DataViolazione"></label>
         <input asp-for="DataViolazione" class="form-control" type="date" />
         <span asp-validation-for="DataViolazione" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="IndirizzoViolazione" class="control-label"></label>
+        <label asp-for="IndirizzoViolazione"></label>
         <input asp-for="IndirizzoViolazione" class="form-control" />
         <span asp-validation-for="IndirizzoViolazione" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="NominativoAgente" class="control-label"></label>
+        <label asp-for="NominativoAgente"></label>
         <input asp-for="NominativoAgente" class="form-control" />
         <span asp-validation-for="NominativoAgente" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="DataTrascrizioneVerbale" class="control-label"></label>
+        <label asp-for="DataTrascrizioneVerbale"></label>
         <input asp-for="DataTrascrizioneVerbale" class="form-control" type="date" />
         <span asp-validation-for="DataTrascrizioneVerbale" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="Importo" class="control-label"></label>
-        <input asp-for="Importo" class="form-control" type="number" step="0.01" />
+        <label asp-for="Importo"></label>
+        <input asp-for="Importo" class="form-control" />
         <span asp-validation-for="Importo" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="DecurtamentoPunti" class="control-label"></label>
-        <input asp-for="DecurtamentoPunti" class="form-control" type="number" />
+        <label asp-for="DecurtamentoPunti"></label>
+        <input asp-for="DecurtamentoPunti" class="form-control" />
         <span asp-validation-for="DecurtamentoPunti" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="IdAnagrafica" class="control-label"></label>
-        <input asp-for="IdAnagrafica" class="form-control" type="number" />
+        <label asp-for="IdAnagrafica"></label>
+        <select asp-for="IdAnagrafica" asp-items="Model.Anagrafiche" class="form-control">
+            <option value="">Select Anagrafica</option>
+        </select>
         <span asp-validation-for="IdAnagrafica" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label asp-for="IdViolazione" class="control-label"></label>
-        <input asp-for="IdViolazione" class="form-control" type="number" />
+        <label asp-for="IdViolazione"></label>
+        <select asp-for="IdViolazione" asp-items="Model.TipoViolazioni" class="form-control">
+            <option value="">Select Tipo Violazione</option>
+        </select>
         <span asp-validation-for="IdViolazione" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <input type="submit" value="Salva" class="btn btn-primary" />
-    </div>
-</form>
 
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -8,7 +8,7 @@ namespace Progetto_19._07.Services
 		void newVerbale(Verbale verbale);
 
 		//LISTA CON TUTTI I VERBALI
-		IEnumerable<Verbale> GetVerbali();
+		IEnumerable<VerbaleViewModel> GetVerbali();
 
 
 	}

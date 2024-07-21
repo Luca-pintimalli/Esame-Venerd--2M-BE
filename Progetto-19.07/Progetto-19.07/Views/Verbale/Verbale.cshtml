@@ -1,59 +1,34 @@
-﻿@model IEnumerable<Verbale>
+﻿@model IEnumerable<VerbaleViewModel>
 
-@{
-    Layout = "_Layout";
-    ViewData["Title"] = "Verbali";
-}
-
-
-<div class="text-center">
-    <h1>@ViewData["Title"]</h1>
-</div>
-
-
-
-@if (Model.Any())
-{
-    <table class="table table-borderless">
-        <thead>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data Violazione</th>
+            <th>Indirizzo Violazione</th>
+            <th>Nominativo Agente</th>
+            <th>Data Trascrizione Verbale</th>
+            <th>Importo</th>
+            <th>Decurtamento Punti</th>
+            <th>Anagrafica</th>
+            <th>Violazione</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
             <tr>
-                <th>Data Violazione</th>
-                <th>Indirizzo violazione</th>
-                <th> Nominativo agente </th>
-                <th>Data verbale</th>
-                <th>Importo</th>
-                <th>Decurtamento Punti</th>
-                <th>Anagrafica</th>
-                <th>Violazione </th>
+                <td>@item.DataViolazione.ToString("yyyy-MM-dd")</td>
+                <td>@item.IndirizzoViolazione</td>
+                <td>@item.NominativoAgente</td>
+                <td>@item.DataTrascrizioneVerbale.ToString("yyyy-MM-dd")</td>
+                <td>@item.Importo</td>
+                <td>@item.DecurtamentoPunti</td>
+                <td>@item.NomeAnagrafica</td>
+                <td>@item.NomeViolazione</td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var a in Model)
-            {
-                <tr>
-                    <td>@a.DataViolazione</td>
-                    <td>@a.IndirizzoViolazione</td>
-                    <td>@a.NominativoAgente</td>
-                    <td>@a.DataTrascrizioneVerbale</td>
-                    <td>@a.Importo</td>
-                    <td>@a.DecurtamentoPunti</td>
-                    <td>@a.IdAnagrafica</td>
-                    <td>@a.IdVerbale</td>
-
-
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <div class="row">
-        <div class="col alert alert-warning">Nessun Verbale</div>
-
-    </div>
-
-}
+        }
+    </tbody>
+</table>
 
 
 
