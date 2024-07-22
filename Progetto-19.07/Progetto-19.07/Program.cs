@@ -8,7 +8,10 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IAnagraficaService, AnagraficaService>();
 builder.Services.AddScoped<ITipoViolazioneService, TipoViolazioneService>();
-builder.Services.AddScoped <IVerbaleService, VerbaleService>();
+builder.Services.AddScoped<IVerbaleService, VerbaleService>();
+builder.Services.AddScoped<ITotalePunti, TotalePuntiService>();
+builder.Services.AddScoped<IVerbaleSuperiorePunti, VerbaliSuperiorePuntiService>();
+builder.Services.AddScoped<IVerbaliSuperiore400EuroService, VerbaliSuperiore400EuroService>();
 
 
 var app = builder.Build();

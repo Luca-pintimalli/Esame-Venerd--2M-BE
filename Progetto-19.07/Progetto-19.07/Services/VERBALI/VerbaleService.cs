@@ -30,7 +30,7 @@ namespace Progetto_19._07.Services
         }
 
 
-
+        //ORDINO TUTTI I VERBALI PER TRASGRESSORE TRAMITE ORDER BY 
         public IEnumerable<VerbaleViewModel> GetVerbali()
         {
             try
@@ -42,7 +42,8 @@ namespace Progetto_19._07.Services
                    t.Descrizione AS NomeViolazione
             FROM VERBALE v
             JOIN ANAGRAFICA a ON v.IdAnagrafica = a.IdAnagrafica
-            JOIN TIPO_VIOLAZIONE t ON v.IdViolazione = t.IdViolazione");
+            JOIN TIPO_VIOLAZIONE t ON v.IdViolazione = t.IdViolazione
+            ORDER BY a.Nome");
 
                 var conn = GetConnection();
                 conn.Open();

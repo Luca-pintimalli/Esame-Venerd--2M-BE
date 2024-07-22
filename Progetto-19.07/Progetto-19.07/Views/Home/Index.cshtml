@@ -2,8 +2,26 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<div class="container">
+    <div class="text-center my-5">
+        <h1 class="display-4">Sanzioni Applicate</h1>
+        <p class="lead">
+            Benvenuto nel portale di gestione delle sanzioni. Qui puoi visualizzare il totale dei punti decurtati,
+            i verbali con un decurtamento di punti superiore a 10 e i verbali con un importo superiore a 400€. <br /> Per visualizzare i verbali raggruppati per trasgressore , andare nella pagina Verbale.
+        </p>
+    </div>
 
+    <div class="d-flex justify-content-center">
+        <div class="list-group w-50">
+            <a asp-action="TotalePuntiDecurtati" asp-controller="Home" class="list-group-item list-group-item-action bg-primary text-white mb-2">
+                Totale Punti Decurtati
+            </a>
+            <a asp-action="VerbaliSuperiore10Punti" asp-controller="Home" class="list-group-item list-group-item-action bg-success text-white mb-2">
+                Verbali con Decurtamento Punti > 10
+            </a>
+            <a asp-action="VerbaliSuperiore400Euro" asp-controller="Home" class="list-group-item list-group-item-action bg-danger text-white mb-2">
+                Verbali con Importo > 400€
+            </a>
+        </div>
+    </div>
+</div>

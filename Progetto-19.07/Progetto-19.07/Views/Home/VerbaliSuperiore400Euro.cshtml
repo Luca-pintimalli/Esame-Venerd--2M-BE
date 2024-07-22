@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Progetto_19._07.Models.VerbaliSuperiore400Euro>
+
+<h2>Verbali con Importo Superiore a 400€</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id Anagrafica</th>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Data Violazione</th>
+            <th>Importo</th>
+            <th>Decurtamento Punti</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdAnagrafica</td>
+                <td>@item.Nome</td>
+                <td>@item.Cognome</td>
+                <td>@item.DataViolazione.ToString("yyyy-MM-dd")</td>
+                <td>@item.Importo</td>
+                <td>@item.DecurtamentoPunti</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -22,11 +22,11 @@ namespace Progetto_19._07.Models
         public string NominativoAgente { get; set; }
 
         [Required]
-        [Range(0, double.MaxValue, ErrorMessage = "Importo must be a positive number.")]
+        
         public decimal Importo { get; set; }
 
         [Required]
-        [Range(0, int.MaxValue, ErrorMessage = "DecurtamentoPunti must be a non-negative number.")]
+        
         public int DecurtamentoPunti { get; set; }
 
         [Required]

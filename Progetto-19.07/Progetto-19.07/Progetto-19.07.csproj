@@ -19,6 +19,10 @@
     <None Remove="Views\TipoViolazioni\" />
     <None Remove="Services\Violazioni\" />
     <None Remove="Views\Verbale\" />
+    <None Remove="Services\VERBALI\" />
+    <None Remove="Services\TOTALE PUNTI\" />
+    <None Remove="Services\VERBALE &gt; 400€\" />
+    <None Remove="Services\Violazioni &gt;10 punti\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
@@ -27,5 +31,9 @@
     <Folder Include="Views\TipoViolazioni\" />
     <Folder Include="Services\Violazioni\" />
     <Folder Include="Views\Verbale\" />
+    <Folder Include="Services\VERBALI\" />
+    <Folder Include="Services\TOTALE PUNTI\" />
+    <Folder Include="Services\VERBALE &gt; 400€\" />
+    <Folder Include="Services\Violazioni &gt;10 punti\" />
   </ItemGroup>
 </Project>

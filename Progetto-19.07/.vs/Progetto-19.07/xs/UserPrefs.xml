@@ -1,32 +1,54 @@
 ﻿<Properties StartupConfiguration="{3A0C8F95-DB45-4078-9934-EAD5C7DD1C52}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Progetto-19.07/Controllers/ReportController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Progetto-19.07/Controllers/VerbaleController.cs">
     <Files>
-      <File FileName="Progetto-19.07/Models/Anagrafica.cs" Line="16" Column="1" />
-      <File FileName="Progetto-19.07/Models/TipoViolazione.cs" Line="7" Column="48" />
-      <File FileName="Progetto-19.07/Models/Verbale.cs" Line="20" Column="1" />
-      <File FileName="Progetto-19.07/Controllers/AnagraficaController.cs" Line="12" Column="2" />
-      <File FileName="Progetto-19.07/Controllers/TipoViolazioniController.cs" Line="6" Column="52" />
-      <File FileName="Progetto-19.07/Controllers/VerbaleController.cs" Line="14" Column="1" />
-      <File FileName="Progetto-19.07/Controllers/ReportController.cs" Line="14" Column="1" />
+      <File FileName="Progetto-19.07/Controllers/VerbaleController.cs" Line="102" Column="130" />
+      <File FileName="Progetto-19.07/Views/Verbale/newVerbale.cshtml" Line="7" Column="39" />
+      <File FileName="Progetto-19.07/Services/VerbaleService.cs" Line="102" Column="1" />
+      <File FileName="Progetto-19.07/Services/IVerbaleService.cs" Line="11" Column="31" />
+      <File FileName="Progetto-19.07/Models/Verbale.cs" Line="15" Column="91" />
+      <File FileName="Progetto-19.07/Models/VerbaleViewModel.cs" Line="13" Column="1" />
+      <File FileName="Progetto-19.07/Views/Verbale/Verbale.cshtml" Line="6" Column="37" />
+      <File FileName="Progetto-19.07/Models/NewVerbaleViewModel.cs" Line="23" Column="31" />
+      <File FileName="Progetto-19.07/Views/Anagrafica/Anagrafica.cshtml" Line="1" Column="1" />
+      <File FileName="Progetto-19.07/Services/ServiceBase.cs" Line="1" Column="1" />
+      <File FileName="Progetto-19.07/Services/Violazioni/TipoViolazioneService.cs" Line="1" Column="1" />
+      <File FileName="Progetto-19.07/Models/Anagrafica.cs" Line="1" Column="1" />
+      <File FileName="Progetto-19.07/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Progetto-19.07/Services/ANAGRAFICA/AnagraficaService.cs" Line="1" Column="1" />
+      <File FileName="Progetto-19.07/Models/TipoViolazione.cs" Line="6" Column="32" />
+      <File FileName="Progetto-19.07/Controllers/TipoViolazioniController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Progetto-19.07">
-            <Node name="Progetto-19.07" expanded="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="Progetto-19.07">
+              <Node name="Controllers">
+                <Node name="VerbaleController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ANAGRAFICA" expanded="True" />
+                <Node name="Violazioni" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Anagrafica" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Verbale" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Progetto-19.07 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Progetto-19.07 PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
